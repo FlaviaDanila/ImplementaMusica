@@ -19,7 +19,7 @@ public class Cancion extends Coleccion {
     public int getDuracion() {
         return this.duracion;
     }
-    
+        @Override
     public int getCantidad() {
         return this.cantidad;
     

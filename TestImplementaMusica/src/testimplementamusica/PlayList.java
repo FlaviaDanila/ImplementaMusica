@@ -1,6 +1,8 @@
 
 package testimplementamusica;
 
+import java.util.List;
+
 /**
  *
  * @author Yaki's
@@ -8,12 +10,19 @@ package testimplementamusica;
 
 public class PlayList extends Coleccion {
     
-   
+    private List<Coleccion> colecciones;
+    private int cantidad;
     
+    @Override
     public int getDuracion() {
         return this.duracion;
     }
     
+        @Override
     public int getCantidad() {
         return this.cantidad;
+    }
+    
+    
+    
 }
